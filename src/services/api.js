@@ -7,7 +7,7 @@ export const analyzeSEO = async (text) => {
     console.log('Sending text for analysis...');
     
     // Make API request to backend
-    const response = await axios.post(`${API_BASE_URL}/analyze`, { text });
+    const response = await axios.post(`${API_BASE_URL}/api/analyze`, { text });
     
     // If API call succeeds, return the data
     console.log('Analysis complete:', response.data);

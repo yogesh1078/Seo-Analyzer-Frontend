@@ -1,0 +1,32 @@
+# Root
+node_modules/
+.env
+.DS_Store
+*.log
+
+# Optional: ignore OS or editor-specific files
+*.swp
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+#########################
+# Client
+#########################
+/node_modules/
+/dist/
+/build/
+/.env
+/.DS_Store
+/.next/  # for Next.js
+/.nuxt/  # for Nuxt.js
+/yarn.lock
+/package-lock.json
+
+# Production files (depending on build tool)
+*.local
+.cache/
+.parcel-cache/
+.turbo/
+
